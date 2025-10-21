@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'Interfaz del <i>software</i>',
+    Description:
+      'Este componente formativo introduce la interfaz de Rhinoceros, destacando menús, comandos, barras de herramientas, vistas, capas y ayudas de construcción. Incluye novedades como el <i>Gumball</i> y opciones de personalización que mejoran la experiencia. Su propósito es que el aprendiz configure y navegue el <i>software</i> con precisión, optimizando el modelado digital de billeteras en un entorno profesional.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,189 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: '<i>Software</i> Rhinoceros',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Instalación y activación de la versión de prueba',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Requisitos técnicos para Rhino',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Interfaz de Rhinoceros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Barra de menús',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Barra de herramientas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Barra de comandos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Ventanas de vista',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Capas y propiedades',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Barra de estado',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: '<i>Gumball</i>',
+            hash: 't_2_7',
+          },
+          {
+            numero: '2.8',
+            titulo: 'Barra de referencias de objetos',
+            hash: 't_2_8',
+          },
+          {
+            numero: '2.9',
+            titulo: 'Filtros de selección',
+            hash: 't_2_9',
+          },
+          {
+            numero: '2.10',
+            titulo: 'Ayudas de modelado ',
+            hash: 't_2_10',
+          },
+          {
+            numero: '2.11',
+            titulo: '<i>Mouse</i>',
+            hash: 't_2_11',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Modelado ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Selección vista',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Unidades de medida',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Métodos de activación de herramientas',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Ejemplos de operaciones básicas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Líneas y polilíneas',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Cuadrados y rectángulos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Círculos',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Empalmar curvas',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Descomponer',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Unir',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Recortar',
+            hash: 't_4_7',
+          },
+          {
+            numero: '4.8',
+            titulo: 'Partir',
+            hash: 't_4_8',
+          },
+          {
+            numero: '4.9',
+            titulo: 'Agrupar',
+            hash: 't_4_9',
+          },
+          {
+            numero: '4.10',
+            titulo: 'Desagrupar',
+            hash: 't_4_10',
+          },
+          {
+            numero: '4.11',
+            titulo: 'Mover',
+            hash: 't_4_11',
+          },
+          {
+            numero: '4.12',
+            titulo: 'Copiar',
+            hash: 't_4_12',
+          },
+          {
+            numero: '4.13',
+            titulo: 'Rotar',
+            hash: 't_4_13',
+          },
+          {
+            numero: '4.14',
+            titulo: 'Desfasar',
+            hash: 't_4_14',
+          },
+          {
+            numero: '4.15',
+            titulo: 'Reflejar',
+            hash: 't_4_15',
+          },
+        ],
       },
     ],
     subMenu: [

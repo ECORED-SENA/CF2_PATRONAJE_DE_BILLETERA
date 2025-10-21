@@ -3,18 +3,29 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 6%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 75%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 70%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -30,3 +41,111 @@
 
 figcaption
   font-weight: normal
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.tarjeta--azul1
+  background-color: #F9BEC3
+.tarjeta.tarjeta--azul1.acordion__activo
+  background-color: #FDEFE2
+.acordion__accion__btn--a
+  background-color: #9028E2
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: white !important
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #FEFAF7
+.tabs-b__content-item
+  background-color: #FEFAF7
+
+.tarjeta.color-acento-botones1
+  background-color: #FFFFFF
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-c2
+    background-color: #497D74
+  &-c3
+    background-color: #D0C110
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -24px
+  &-c4
+    background-color: #6AB4A8
+    border-radius: 15px
+  &-c5
+    background-color: #FFFFFF
+    border-radius: 15px
+  &-c6
+    background-image: url(../assets/curso/tema1/img3.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c7
+    background-color: #7C6B5A
+    border-radius: 15px
+  &-c8
+    background-image: url(../assets/curso/tema2/img3.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c9
+    background-color: #ECE69E
+    border-radius: 15px
+  &-c10
+    background-color: #E1F0EE
+    border-radius: 15px
+  &-c11
+    background-color: #D0C110
+    border-radius: 15px
+  &-c12
+    background-color: #D0C110
+    margin-inline: -3.2rem !important
+  &-c13
+    background-color: #C3E0DB
+    border-radius: 15px
+  &-c14
+    background-color: #C3E0DB
+    border-radius: 15px
+    height: 100%
+    transition: all 0.5s ease
+  &-c14:hover
+    background-color: #FAD8B7
+    transition: all 0.5s ease
+  &-c15
+    background-color: #F05F6B
+    border-radius: 15px
+  &-c16
+    background-color: #6AB4A8
+    border-radius: 15px
+  &-c17
+    background-image: url(../assets/curso/tema2/img24.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: top
+    margin-inline: -3.2rem !important
+  &-c18
+    background-image: url(../assets/curso/tema2/img29.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: top
+    margin-inline: -3.2rem !important
+  &-c19
+    background-color: #77C3B7
+  &-c20
+    background-image: url(../assets/curso/tema3/img12.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: bottom
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -24px
