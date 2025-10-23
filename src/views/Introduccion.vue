@@ -11,10 +11,10 @@
       .col-12
         .px-5.pb-5
           .row.align-items-center
-            .col-lg-3
+            .col-lg-3(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/intro/img1.png", alt="", style="width: 300px").m-auto
-            .col-lg-9
+            .col-lg-9(data-aos="fade-left")
               p El presente componente tiene como finalidad acercar al aprendiz al entorno de trabajo de Rhinoceros, un software de modelado 3D ampliamente utilizado en diseño digital. A través de este espacio de formación se busca que el estudiante reconozca la importancia de comprender la interfaz antes de iniciar procesos complejos de creación, garantizando así una base sólida en el manejo de herramientas digitales para el patronaje de marroquinería.
               .row
                 .col-lg.pe-0
@@ -30,10 +30,10 @@
       .col-12
         .p-5
           .row.align-items-center
-            .col-md-auto.mb-4.mb-md-0
+            .col-md-auto.mb-4.mb-md-0(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/intro/img1.svg", alt="", style="width: 120px").m-auto
-            .col-md
+            .col-md(data-aos="fade-left")
               p.mb-0 Finalmente, el componente se caracteriza por su enfoque práctico. A través de ejercicios guiados y de la repetición sistemática de acciones clave, el estudiante desarrolla la capacidad de configurar y personalizar la interfaz de acuerdo con sus necesidades. De esta manera, no solo adquiere competencias técnicas, sino que también fortalece habilidades transferibles a proyectos de mayor complejidad, consolidando un aprendizaje aplicable al ámbito laboral y profesional.
 
 </template>

@@ -7,10 +7,10 @@
         span 3
       h1 Modelado
     .row
-      .col-lg-auto.mb-3.mb-lg-0.pe-lg-0
+      .col-lg-auto.mb-3.mb-lg-0.pe-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema3/img1.png", alt="", style="width: 370px").m-auto
-      .col-lg.bg-c2
+      .col-lg.bg-c2(data-aos="fade-left")
         .row.h-100.align-items-center
           .col-12
             .p-4
@@ -20,7 +20,7 @@
     .titulo-segundo.color-acento-contenido
       h2 3.1 Selección vista
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p El primer paso consiste en seleccionar la vista superior, ya que el producto a diseñar es bidimensional (2D) y el trabajo se realizará exclusivamente en este plano. Para ello:
         .row.mb-3
           .col-12
@@ -46,12 +46,12 @@
                             i.far.fa-arrow-alt-circle-right
                             |
                             p.mb-0 Para volver a activarla, basta con presionar nuevamente F7.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/img3.png", alt="", style="width: 360px").m-auto
-    .titulo-sexto.color-acento-contenido.mb-3
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       p.mb-0 #[b Figura 15.] Selección de vista
-    .row
+    .row(data-aos="fade-left")
       .col-12
         .p-4.bg-c10
           figure
@@ -61,9 +61,9 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2 Unidades de medida
     .row.align-items-center.mb-4
-      .col-md.order-2.order-md-1
+      .col-md.order-2.order-md-1(data-aos="fade-right")
         p.mb-0 El siguiente paso es definir las unidades de medida para el diseño. Al abrir el programa, este solicita seleccionar la unidad a utilizar. Para objetos pequeños, como las billeteras, se recomienda trabajar en milímetros, aunque también es posible hacerlo en centímetros. Para ello, al iniciar, seleccionamos “Nuevo” y elegimos la opción “Objeto pequeño - milímetros”.
-      .col-md-auto.mb-3.mb-md-0.order-1.order-md-2
+      .col-md-auto.mb-3.mb-md-0.order-1.order-md-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/img1.svg", alt="", style="width: 160px").m-auto
     .row.justify-content-center.mb-4
@@ -101,10 +101,10 @@
                   .p-4.bg-c10
                     figure
                       img(src="@/assets/curso/tema3/img6.png", alt="Ventana emergente del comando “Nuevo” donde se muestra la lista de plantillas disponibles con unidades de medida predefinidas.", style="width: 1000px").m-auto
-    p.mb-5 Tras seleccionar la unidad, es fundamental verificar que el espacio de trabajo esté correctamente configurado. Para confirmarlo, se revisa la barra inferior de la pantalla, donde se indica la unidad establecida.
-    .titulo-sexto.color-acento-contenido.mb-3
+    p.mb-5(data-aos="fade-down") Tras seleccionar la unidad, es fundamental verificar que el espacio de trabajo esté correctamente configurado. Para confirmarlo, se revisa la barra inferior de la pantalla, donde se indica la unidad establecida.
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       p.mb-0 #[b Figura 18.] Verificación unidades de medida
-    .row
+    .row(data-aos="fade-left")
       .col-12
         .p-4.bg-c10
           figure
@@ -117,10 +117,10 @@
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/tema3/img9.png", alt="", style="width: 360px").m-auto
-            .col-lg-8
+            .col-lg-8(data-aos="fade-left")
               p En Rhinoceros  existen tres formas principales de activar herramientas o comandos, lo que brinda flexibilidad al usuario según su estilo de trabajo y preferencias:
               .row.mb-3
                 .col-12
@@ -147,12 +147,12 @@
                                   |
                                   p.mb-0 Línea de comandos: escritura manual del nombre de la herramienta, con función de autocompletado.
               p.mb-0 Esta variedad de métodos facilita un acceso ágil y adaptado a diferentes situaciones de trabajo.
-          .row.mb-5
+          .row.mb-5(data-aos="fade-right")
             .col-auto
               .px-3.py-2.bg-c16
                 h3.mb-0 Subherramientas
           .row.align-items-center.mb-5
-            .col-lg-8.mb-4.mb-lg-0
+            .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
               p Muchos íconos en la barra de herramientas de Rhinoceros  contienen subherramientas adicionales que se despliegan al hacer clic en la flecha negra ubicada en la esquina inferior derecha de cada ícono. Este sistema permite:
               .row.mb-3
                 .col-12
@@ -179,10 +179,10 @@
                                   |
                                   p.mb-0 Optimizar el flujo de trabajo al tener funciones relacionadas agrupadas bajo un mismo ícono.
               p.mb-0 Por ejemplo, el ícono de la herramienta de creación de círculos puede contener varias variantes:
-            .col-lg-4
+            .col-lg-4(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema3/img11.png", alt="", style="width: 360px").m-auto
-          .row.justify-content-center.mb-2
+          .row.justify-content-center.mb-2(data-aos="fade-down")
             .col-md-6.col-lg-4.mb-4
               .p-2.bg-c9.shadow-sm
                 .row.align-items-center
@@ -210,10 +210,10 @@
                   .col
                     p.mb-0 #[b 03]
                     p.mb-0 Círculo tangente a objetos.
-          p.mb-5 La flecha negra en los íconos de la barra de herramientas indica la presencia de comandos agrupados o relacionados, que pueden desplegarse y seleccionarse según la necesidad, mejorando la experiencia y eficiencia en el modelado dentro de Rhinoceros.
-          .titulo-sexto.color-acento-contenido.mb-3
+          p.mb-5(data-aos="fade-left") La flecha negra en los íconos de la barra de herramientas indica la presencia de comandos agrupados o relacionados, que pueden desplegarse y seleccionarse según la necesidad, mejorando la experiencia y eficiencia en el modelado dentro de Rhinoceros.
+          .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
             p.mb-0 #[b Figura 19.] Subherramientas
-          .row.mb-5
+          .row.mb-5(data-aos="fade-left")
             .col-12
               .p-4.bg-c10
                 figure

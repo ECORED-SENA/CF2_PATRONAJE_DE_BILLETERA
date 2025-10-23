@@ -7,7 +7,7 @@
         span 1
       h1 #[i Software] Rhinoceros
     .row.align-items-center
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p Rhinoceros (también conocido como Rhino) es un software de diseño asistido por computador (CAD) enfocado en el modelado 3D. Su principal ventaja es la precisión y la facilidad para crear, editar, analizar y traducir curvas, superficies y sólidos. Es ampliamente utilizado en campos como:
         .row.mb-3
           .col-12
@@ -42,7 +42,7 @@
                             |
                             p.mb-0 Calzado y marroquinería.
         p.mb-0 Su versatilidad permite combinar la creatividad con la exactitud técnica, y su compatibilidad con múltiples formatos de archivo lo hace especialmente útil. Además, cuenta con una gran variedad de complementos (plugins) que amplían sus funcionalidades. A continuación, se detalla el proceso de instalación y activación de la versión de prueba, junto con los requisitos técnicos del sistema.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/img1.png", alt="", style="width: 360px").m-auto
     Separador
@@ -52,12 +52,12 @@
     .row.bg-c6
       .col-12
         .px-5
-          p A continuación, se detallan los pasos necesarios para descargar, instalar y activar la versión de evaluación gratuita de Rhinoceros, válida por 90 días. Este proceso requiere conexión a internet y una cuenta de usuario en Rhino.
+          p(data-aos="fade-down") A continuación, se detallan los pasos necesarios para descargar, instalar y activar la versión de evaluación gratuita de Rhinoceros, válida por 90 días. Este proceso requiere conexión a internet y una cuenta de usuario en Rhino.
           .row.align-items-center
-            .col-xl-3.d-none.d-xl-block
+            .col-xl-3.d-none.d-xl-block(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/tema1/img4.png", alt="", style="width: 290px").m-auto
-            .col-xl-9
+            .col-xl-9(data-aos="fade-left")
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
                 .row(titulo="a) Acceso al sitio oficial")
                   .col-12
@@ -89,12 +89,12 @@
           .titulo-segundo.color-acento-contenido
             h2 1.2Requisitos técnicos para Rhino
           .row.align-items-center.mb-4
-            .col-md
+            .col-md(data-aos="fade-right")
               p.mb-0 Para garantizar un funcionamiento óptimo del software, es importante verificar que el equipo cumpla con los requisitos mínimos y recomendados, tanto para Windows como para macOS. Estos se presentan a continuación:
-            .col-md-auto
+            .col-md-auto(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema1/img1.svg", alt="", style="width: 120px").m-auto
-          TabsB.color-acento-contenido
+          TabsB.color-acento-contenido(data-aos="fade-left")
             .p-4.p-md-5(titulo="Windows" :icono="require('@/assets/curso/tema1/img2.svg')")
               .row.justify-content-center
                 .col-lg-6

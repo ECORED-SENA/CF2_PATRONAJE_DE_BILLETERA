@@ -268,22 +268,76 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
+      tema: '<i>Software</i> Rhinoceros 8',
+      referencia: 'Rhinoceros. (2025). Rhino 8 Charging Forward.',
       tipo: 'Sitio web',
-      link: '',
+      link: 'https://www.rhino3d.com/',
+    },
+    {
+      tema: 'Interfaz de Rhinoceros',
+      referencia:
+        'Téllez, J. (2011). Diseño 3D y mucho más. Modelar y Fabricar.',
+      tipo: 'Blog',
+      link: 'https://modelaryfabricar.blogspot.com/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Administrador de capas',
+      significado:
+        'herramienta para organizar objetos del modelo en capas, permitiendo activarlas o desactivarlas y asignar colores.',
+    },
+    {
+      termino: 'Barra de menús',
+      significado:
+        'área superior de la ventana donde se agrupan los comandos en categorías desplegables para facilitar el acceso.',
+    },
+    {
+      termino: 'Barras de herramientas',
+      significado:
+        'paneles con íconos que permiten ejecutar herramientas y comandos frecuentes de forma visual.',
+    },
+    {
+      termino: 'Línea de comandos',
+      significado:
+        'zona donde se ingresan textos para ejecutar comandos rápidamente, con función de autocompletado.',
+    },
+    {
+      termino: '<i>Viewports</i> (Vistas)',
+      significado:
+        'cuadros de visualización que muestran el modelo desde diferentes perspectivas (superior, perspectiva, frontal, derecha).',
+    },
+    {
+      termino: '<i>Widget Gumball</i>',
+      significado:
+        'herramienta visual para manipular objetos mediante movimientos, rotaciones y escalas directas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ealfi. (2024). Curso Rhinoceros 8: Todo lo que debes saber. ',
+      link: 'https://ealfi.es/curso-rhinoceros-8-todo-debes-saber/',
+    },
+    {
+      referencia:
+        'McNeel Wiki. (2025). Lista de comandos y guía de usuario de Rhinoceros. ',
+      link: 'https://wiki.mcneel.com/es/rhino/commandlist',
+    },
+    {
+      referencia:
+        'Von Moos, D. (2023). 3D Modeling with Rhinoceros 8: A Practical Guide. Independently published. ',
       link: '',
+    },
+    {
+      referencia:
+        'Rhino 3D. (2024). Características y novedades de Rhinoceros 8. ',
+      link: 'https://www.rhino3d.com/es/features/',
+    },
+    {
+      referencia:
+        'Guías de desarrolladores Rhino. (2024). Rhino Developer Guides. ',
+      link: 'https://developer.rhino3d.com/es/guides',
     },
   ],
   creditos: [
@@ -291,14 +345,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -306,9 +360,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jenny Jasbleydi Velásquez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -316,19 +377,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yerson Fabian Zarate Saavedra',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -336,14 +418,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
