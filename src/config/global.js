@@ -389,19 +389,7 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete lenguaje de señas',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Cristhian Giovanni Gordillo Segura',
-          cargo: 'Intérprete lenguaje de señas',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Daniela Muñoz Bedoya',
+          nombre: 'Carlos Eduardo Garavito Parada',
           cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
