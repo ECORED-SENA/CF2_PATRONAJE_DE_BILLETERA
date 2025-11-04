@@ -14,7 +14,7 @@
         .row.h-100.align-items-center
           .col-12
             .p-4
-              p.text-white.mb-0 Para iniciar el proceso de modelado de billeteras, se emplearán únicamente las herramientas necesarias. Aunque Rhinoceros es un software muy completo, en este proyecto el trabajo se enfocará en lo esencial, aplicando los comandos básicos mediante ejercicios prácticos.
+              p.text-white.mb-0 Para iniciar el proceso de modelado de billeteras, se emplearán únicamente las herramientas necesarias. Aunque Rhinoceros es un #[i software] muy completo, en este proyecto el trabajo se enfocará en lo esencial, aplicando los comandos básicos mediante ejercicios prácticos.
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido

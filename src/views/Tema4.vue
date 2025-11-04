@@ -57,7 +57,7 @@
                           li.d-flex.mb-0
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 Escribiendo el comando Polilínea en la línea de comandos.
+                            p.mb-0 Escribiendo el comando polilínea en la línea de comandos.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/img3.png", alt="", style="width: 360px").m-auto
@@ -178,7 +178,7 @@
                         .lista-ol--cuadro__vineta.v--green
                           span a
                         |
-                        p.mb-0 Seleccionar la herramienta Polilínea desde la barra de herramientas o escribir Polilínea en la línea de comandos y presionar Enter.
+                        p.mb-0 Seleccionar la herramienta polilínea desde la barra de herramientas o escribir polilínea en la línea de comandos y presionar Enter.
                       li.d-flex
                         .lista-ol--cuadro__vineta.v--green
                           span b
@@ -227,13 +227,13 @@
                         img(src="@/assets/curso/tema4/img5.svg", alt="", style="width: 90px").m-auto
                     .col
                       p.mb-0 #[b Paso 1]
-                  p Seleccionar la herramienta Rectángulo desde la barra de herramientas o escribir Rectángulo en la línea de comandos y presionar Enter.
+                  p Seleccionar la herramienta rectángulo desde la barra de herramientas o escribir rectángulo en la línea de comandos y presionar Enter.
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 24.] Selección comando Rectángulo
+                    p.mb-0 #[b Figura 24.] Selección comando rectángulo
                   .row
                     .col-12
                       figure
-                        img(src="@/assets/curso/tema4/img10.png", alt="Selección del comando Rectángulo desde la barra de herramientas en Rhinoceros, utilizado para crear figuras rectangulares de forma rápida.", style="width: 900px").m-auto
+                        img(src="@/assets/curso/tema4/img10.png", alt="Selección del comando rectángulo desde la barra de herramientas en Rhinoceros, utilizado para crear figuras rectangulares de forma rápida.", style="width: 900px").m-auto
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-left")
         .row
@@ -264,7 +264,7 @@
                         img(src="@/assets/curso/tema4/img5.svg", alt="", style="width: 90px").m-auto
                     .col
                       p.mb-0 #[b Paso 3]
-                  p Seleccionar la herramienta Rectángulo desde la barra de herramientas o escribir Rectángulo en la línea de comandos y presionar Enter.
+                  p Seleccionar la herramienta rectángulo desde la barra de herramientas o escribir rectángulo en la línea de comandos y presionar Enter.
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 25.] Selección esquina rectángulo
                   .row.mb-5
@@ -315,7 +315,7 @@
         .row.h-100.align-items-center
           .col-12
             .p-4
-              p.text-white.mb-0 Los círculos son una de las formas básicas más utilizadas en el modelado de Rhinoceros 8. El software ofrece varias maneras de crearlos, desde las más simples hasta opciones avanzadas para un control más preciso.
+              p.text-white.mb-0 Los círculos son una de las formas básicas más utilizadas en el modelado de Rhinoceros 8. El #[i software] ofrece varias maneras de crearlos, desde las más simples hasta opciones avanzadas para un control más preciso.
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
@@ -476,11 +476,11 @@
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 El círculo se genera como una curva NURBS editable, que puede ajustarse, subdividirse o transformarse en geometrías más complejas.
+                            p.mb-0 El círculo se genera como una curva #[i NURBS] editable, que puede ajustarse, subdividirse o transformarse en geometrías más complejas.
                           li.d-flex.mb-0
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 Posibilidad de trabajar en cualquier plano activo: Top, Front, Right o un plano personalizado.
+                            p.mb-0 Posibilidad de trabajar en cualquier plano activo: #[i Top], #[i Front], #[i Right] o un plano personalizado.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/img18.png", alt="", style="width: 350px").m-auto
@@ -715,7 +715,7 @@
       h2 4.7 Recortar
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p La herramienta Recortar se utiliza para eliminar partes de curvas, superficies o mallas, tomando como referencia otros objetos que actúan como límites de corte. Su función principal es depurar la geometría, ajustándola únicamente a las zonas necesarias para el modelado.
+        p La herramienta recortar se utiliza para eliminar partes de curvas, superficies o mallas, tomando como referencia otros objetos que actúan como límites de corte. Su función principal es depurar la geometría, ajustándola únicamente a las zonas necesarias para el modelado.
         .row.mb-3
           .col-12
             .p-4.bg-c16
@@ -833,7 +833,7 @@
     #t_4_8
     .titulo-segundo.color-acento-contenido
       h2 4.8 Partir
-    p.mb-4(data-aos="fade-down") La herramienta Partir en Rhinoceros permite dividir objetos —curvas, superficies o sólidos— en partes separadas mediante uno o más objetos utilizados como planos o líneas de corte. Su uso es esencial cuando se requiere trabajar con segmentos individuales de una geometría previamente unificada. El procedimiento básico es el siguiente:
+    p.mb-4(data-aos="fade-down") La herramienta partir en Rhinoceros permite dividir "objetos", curvas, superficies o "sólidos" en partes separadas mediante uno o más objetos utilizados como planos o líneas de corte. Su uso es esencial cuando se requiere trabajar con segmentos individuales de una geometría previamente unificada. El procedimiento básico es el siguiente:
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
         .row
@@ -915,7 +915,7 @@
     #t_4_9
     .titulo-segundo.color-acento-contenido
       h2 4.9 Agrupar
-    p.mb-4(data-aos="fade-down") La herramienta Agrupar permite combinar varios objetos seleccionados en una sola unidad lógica llamada grupo. Aunque los objetos mantienen su identidad individual, al estar agrupados se comportan como un único elemento para selección y transformación. Para aplicar este comando, se sigue una operativa básica:
+    p.mb-4(data-aos="fade-down") La herramienta agrupar permite combinar varios objetos seleccionados en una sola unidad lógica llamada grupo. Aunque los objetos mantienen su identidad individual, al estar agrupados se comportan como un único elemento para selección y transformación. Para aplicar este comando, se sigue una operativa básica:
     .row.justify-content-center.mb-5
       .col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
@@ -930,7 +930,7 @@
                     img(src="@/assets/curso/tema4/img35.png", alt="Selección de múltiples curvas para agruparlas en una sola unidad lógica utilizando el comando Agrupar.", style="width: 900px").m-auto
           .row(titulo="Paso 2")
             .col-12
-              p Ejecutar el comando Agrupar desde el menú Edición, desde la barra de herramientas o escribiendo Agrupar en la línea de comandos.
+              p Ejecutar el comando agrupar desde el menú edición, desde la barra de herramientas o escribiendo agrupar en la línea de comandos.
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 43.] Ejecución comando agrupar
               .row
@@ -991,7 +991,7 @@
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 Se pueden añadir o eliminar objetos de un grupo existente mediante comandos específicos (Añadir a grupo y Eliminar de grupo).
+                            p.mb-0 Se pueden añadir o eliminar objetos de un grupo existente mediante comandos específicos (añadir a grupo y eliminar de grupo).
         p.mb-0 Este enfoque ofrece orden y eficiencia en la manipulación de modelos complejos, permitiendo trabajar de manera estructurada sin perder la posibilidad de editar cada objeto por separado cuando sea necesario.
       .col-lg-4(data-aos="fade-left")
         figure
@@ -1140,7 +1140,7 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
-          h3.mb-0 Uso del Gumball para mover
+          h3.mb-0 Uso del #[i Gumball] para mover
     .row.mb-5
       .col-lg-auto.mb-3.mb-lg-0.pe-lg-0(data-aos="fade-right")
         figure
@@ -1149,7 +1149,7 @@
         .row.h-100.align-items-center
           .col-12
             .p-4
-              p.mb-0 El widget Gumball ofrece una interfaz visual para mover objetos mediante manipuladores gráficos. Con él, es posible desplazar, rotar y escalar elementos directamente sobre la geometría seleccionada, lo que agiliza el control y la edición.
+              p.mb-0 El #[i widget Gumball] ofrece una interfaz visual para mover objetos mediante manipuladores gráficos. Con él, es posible desplazar, rotar y escalar elementos directamente sobre la geometría seleccionada, lo que agiliza el control y la edición.
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
@@ -1251,10 +1251,10 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
-          h3.mb-0 Uso del Gumball para copiar
-    p.mb-5(data-aos="fade-down") El widget Gumball también permite realizar copias, ofreciendo una interfaz visual con manipuladores interactivos. A través de él, se pueden definir con rapidez la cantidad de copias y la distancia entre ellas.
+          h3.mb-0 Uso del #[i Gumball] para copiar
+    p.mb-5(data-aos="fade-down") El widget #[i Gumball] también permite realizar copias, ofreciendo una interfaz visual con manipuladores interactivos. A través de él, se pueden definir con rapidez la cantidad de copias y la distancia entre ellas.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      p.mb-0 #[b Figura 48.] Copia con Gumball
+      p.mb-0 #[b Figura 48.] Copia con #[i Gumball]
     .row.mb-5(data-aos="fade-left")
       .col-12
         .p-4.bg-c10
@@ -1412,13 +1412,13 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
-          h3.mb-0 Uso del Gumball para rotar
+          h3.mb-0 Uso del #[i Gumball] para rotar
     .row.mb-5
       .col-lg.bg-c26.order-2.order-lg-1(data-aos="fade-right")
         .row.h-100.align-items-center
           .col-12
             .p-4
-              p.text-white.mb-0 Además del comando tradicional, el Gumball ofrece manipuladores visuales en forma de aros interactivos, que permiten girar objetos de manera rápida y precisa con retroalimentación en tiempo real.
+              p.text-white.mb-0 Además del comando tradicional, el #[i Gumball] ofrece manipuladores visuales en forma de aros interactivos, que permiten girar objetos de manera rápida y precisa con retroalimentación en tiempo real.
       .col-lg-auto.mb-3.mb-lg-0.ps-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/img62.png", alt="", style="width: 370px").m-auto
@@ -1579,7 +1579,7 @@
                             .lista-ol--cuadro__vineta.v--green
                               span a
                             |
-                            p.mb-0 Seleccionar la herramienta Desfasar.
+                            p.mb-0 Seleccionar la herramienta desfasar.
                           li.d-flex
                             .lista-ol--cuadro__vineta.v--green
                               span b

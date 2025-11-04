@@ -15,14 +15,14 @@
               figure
                 img(src="@/assets/curso/intro/img1.png", alt="", style="width: 300px").m-auto
             .col-lg-9(data-aos="fade-left")
-              p El presente componente tiene como finalidad acercar al aprendiz al entorno de trabajo de Rhinoceros, un software de modelado 3D ampliamente utilizado en diseño digital. A través de este espacio de formación se busca que el estudiante reconozca la importancia de comprender la interfaz antes de iniciar procesos complejos de creación, garantizando así una base sólida en el manejo de herramientas digitales para el patronaje de marroquinería.
+              p El presente componente tiene como finalidad acercar al aprendiz al entorno de trabajo de Rhinoceros, un #[i software] de modelado 3D ampliamente utilizado en diseño digital. A través de este espacio de formación se busca que el estudiante reconozca la importancia de comprender la interfaz antes de iniciar procesos complejos de creación, garantizando así una base sólida en el manejo de herramientas digitales para el patronaje de marroquinería.
               .row
                 .col-lg.pe-0
                   .bg-c2.h-100
                     .row
                       .col-12
                         .p-4
-                          p.text-white.mb-0 El contenido ofrece una ruta clara que inicia con la instalación y validación técnica del programa, para luego adentrarse en la exploración de la interfaz. Se abordan elementos como la barra de menús, las herramientas gráficas, la línea de comandos, las vistas, el administrador de capas y el Gumball, entre otros. Estos recursos permiten al aprendiz organizar, visualizar y manipular objetos con mayor precisión, logrando un flujo de trabajo más ordenado y coherente con las exigencias del diseño digital.
+                          p.text-white.mb-0 El contenido ofrece una ruta clara que inicia con la instalación y validación técnica del programa, para luego adentrarse en la exploración de la interfaz. Se abordan elementos como la barra de menús, las herramientas gráficas, la línea de comandos, las vistas, el administrador de capas y el #[i Gumball], entre otros. Estos recursos permiten al aprendiz organizar, visualizar y manipular objetos con mayor precisión, logrando un flujo de trabajo más ordenado y coherente con las exigencias del diseño digital.
                 .col-lg-auto.ps-0.d-none.d-xxl-block
                   figure
                     img(src="@/assets/curso/intro/img2.png", alt="", style="width: 450px").m-auto

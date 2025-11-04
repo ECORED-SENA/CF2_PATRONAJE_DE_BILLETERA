@@ -303,7 +303,7 @@ export default {
         'zona donde se ingresan textos para ejecutar comandos rápidamente, con función de autocompletado.',
     },
     {
-      termino: '<i>Viewports</i> (Vistas)',
+      termino: '<i>Viewports</i> (vistas)',
       significado:
         'cuadros de visualización que muestran el modelo desde diferentes perspectivas (superior, perspectiva, frontal, derecha).',
     },

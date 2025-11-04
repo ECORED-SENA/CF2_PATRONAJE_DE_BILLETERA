@@ -11,7 +11,7 @@
         .px-5
           .row.align-items-center
             .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-              p Rhinoceros (o Rhino) es un software de diseño 3D enfocado en el modelado NURBS. Su interfaz está diseñada para facilitar la creación, edición y visualización de modelos tanto en 2D como en 3D. Está compuesta por diversos elementos que permiten trabajar con precisión y flexibilidad, según las necesidades del proyecto. La interfaz de Rhinoceros  incluye:
+              p Rhinoceros (o Rhino) es un #[i software] de diseño 3D enfocado en el modelado #[i NURBS]. Su interfaz está diseñada para facilitar la creación, edición y visualización de modelos tanto en 2D como en 3D. Está compuesta por diversos elementos que permiten trabajar con precisión y flexibilidad, según las necesidades del proyecto. La interfaz de Rhinoceros  incluye:
               .row.mb-3
                 .col-12
                   .p-4.bg-c7
@@ -272,19 +272,19 @@
                                 li.d-flex
                                   i.far.fa-arrow-alt-circle-right
                                   |
-                                  p.mb-0 Top (Superior).
+                                  p.mb-0 #[i Top] (Superior).
                                 li.d-flex
                                   i.far.fa-arrow-alt-circle-right
                                   |
-                                  p.mb-0 Front (Frontal).
+                                  p.mb-0 #[i Front] (Frontal).
                                 li.d-flex
                                   i.far.fa-arrow-alt-circle-right
                                   |
-                                  p.mb-0 Right (Derecha).
+                                  p.mb-0 #[i Right] (Derecha).
                                 li.d-flex
                                   i.far.fa-arrow-alt-circle-right
                                   |
-                                  p.mb-0 Perspective (Perspectiva).
+                                  p.mb-0 #[i Perspective] (Perspectiva).
               p.mb-0 Cada una de estas vistas cuenta con controles de navegación, como zoom, pan (desplazamiento) y rotación, que permiten manipular los modelos de forma eficiente tanto en entornos 2D como 3D.
             .col-lg-4(data-aos="fade-left")
               figure
@@ -311,11 +311,11 @@
     #t_2_5
     .titulo-segundo.color-acento-contenido
       h2 2.5 Capas y propiedades
-    p.mb-5(data-aos="fade-down") El panel lateral de Capas y Propiedades es una herramienta esencial dentro de la interfaz de Rhinoceros, ya que permite organizar, controlar y personalizar los elementos del modelo de forma precisa. Este panel suele estar ubicado en el lateral derecho de la ventana principal y está dividido en dos secciones principales:
+    p.mb-5(data-aos="fade-down") El panel lateral de capas y propiedades es una herramienta esencial dentro de la interfaz de Rhinoceros, ya que permite organizar, controlar y personalizar los elementos del modelo de forma precisa. Este panel suele estar ubicado en el lateral derecho de la ventana principal y está dividido en dos secciones principales:
     .row.justify-content-center.mb-5
       .col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
-          .row(titulo="Capas (Layers)")
+          .row(titulo="Capas (<i>Layers</i>)")
             .col-12
               p Permiten organizar el modelo mediante la asignación de objetos a distintas capas. Cada capa puede tener un color específico y se puede bloquear, ocultar o mostrar según las necesidades del proyecto. Esta función resulta clave para mantener el orden en modelos complejos y facilitar su edición.
               .titulo-sexto.color-acento-contenido.mb-3
@@ -397,7 +397,7 @@
                             i.far.fa-arrow-alt-circle-right
                             |
                             p.mb-0 #[i Grid Snap] (ajuste a la rejilla).
-        p.mb-0 Cada una de estas vistas cuenta con controles de navegación, como zoom, pan (desplazamiento) y rotación, que permiten manipular los modelos de forma eficiente tanto en entornos 2D como 3D.
+        p.mb-0 Cada una de estas vistas cuenta con controles de navegación, como #[i zoom], #[i panning] (desplazamiento) y rotación, que permiten manipular los modelos de forma eficiente tanto en entornos 2D como 3D.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/img19.png", alt="", style="width: 380px").m-auto
@@ -414,7 +414,7 @@
       h2 2.7 #[i Gumball]
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p El Gumball es una herramienta de manipulación directa de objetos en Rhinoceros. Al activarse, permite al usuario mover, rotar y escalar elementos del modelo mediante un control visual interactivo que aparece directamente sobre el objeto seleccionado.
+        p El #[i Gumball] es una herramienta de manipulación directa de objetos en Rhinoceros. Al activarse, permite al usuario mover, rotar y escalar elementos del modelo mediante un control visual interactivo que aparece directamente sobre el objeto seleccionado.
         .row.mb-3
           .col-12
             .p-4.bg-c16
@@ -440,7 +440,7 @@
                             i.far.fa-arrow-alt-circle-right
                             |
                             p.mb-0 Cuadros o manijas para escalar de forma precisa.
-        p.mb-0 El uso del Gumball agiliza muchas tareas de transformación al evitar la necesidad de ingresar comandos manuales, ofreciendo una alternativa más visual e intuitiva para editar objetos en el espacio 3D.
+        p.mb-0 El uso del #[i Gumball] agiliza muchas tareas de transformación al evitar la necesidad de ingresar comandos manuales, ofreciendo una alternativa más visual e intuitiva para editar objetos en el espacio 3D.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/img22.png", alt="", style="width: 360px").m-auto
@@ -524,7 +524,7 @@
                   .col-md
                     p #[b De una sola designación]
                     p.mb-0 Se activan solo para una acción específica.
-          p.mb-5(data-aos="fade-down") Además, es posible configurar el radio de forzado (snap radius), es decir, la distancia a la que el cursor se "adhiere" al punto de referencia al aproximarse, lo que proporciona mayor control según las preferencias del usuario.
+          p.mb-5(data-aos="fade-down") Además, es posible configurar el radio de forzado (#[i snap radius]), es decir, la distancia a la que el cursor se "#[i adhiere]" al punto de referencia al aproximarse, lo que proporciona mayor control según las preferencias del usuario.
           .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
             p.mb-0 #[b Figura 12.] Referencia de objetos
           .row(data-aos="fade-left")
@@ -692,8 +692,8 @@
     Separador
     #t_2_11
     .titulo-segundo.color-acento-contenido
-      h2 2.11 Mouse
-    p.mb-4(data-aos="fade-down") Aunque el ratón no forma parte directa de la interfaz gráfica de Rhinoceros, su uso es esencial para la navegación, edición y ejecución de comandos dentro del entorno de modelado. El ratón se integra de forma natural al flujo de trabajo del usuario, ofreciendo control directo e inmediato sobre los elementos del modelo. Las funciones principales del mouse son:
+      h2 2.11 #[i Mouse]
+    p.mb-4(data-aos="fade-down") Aunque el ratón no forma parte directa de la interfaz gráfica de Rhinoceros, su uso es esencial para la navegación, edición y ejecución de comandos dentro del entorno de modelado. El ratón se integra de forma natural al flujo de trabajo del usuario, ofreciendo control directo e inmediato sobre los elementos del modelo. Las funciones principales del #[i mouse] son:
     .row(data-aos="fade-left")
       .col-12
         .px-5.pb-5.bg-c19

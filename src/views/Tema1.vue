@@ -8,7 +8,7 @@
       h1 #[i Software] Rhinoceros
     .row.align-items-center
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Rhinoceros (también conocido como Rhino) es un software de diseño asistido por computador (CAD) enfocado en el modelado 3D. Su principal ventaja es la precisión y la facilidad para crear, editar, analizar y traducir curvas, superficies y sólidos. Es ampliamente utilizado en campos como:
+        p Rhinoceros (también conocido como Rhino) es un #[i software] de diseño asistido por computador (CAD) enfocado en el modelado 3D. Su principal ventaja es la precisión y la facilidad para crear, editar, analizar y traducir curvas, superficies y sólidos. Es ampliamente utilizado en campos como:
         .row.mb-3
           .col-12
             .p-4.bg-c4
@@ -41,7 +41,7 @@
                             i.far.fa-arrow-alt-circle-right
                             |
                             p.mb-0 Calzado y marroquinería.
-        p.mb-0 Su versatilidad permite combinar la creatividad con la exactitud técnica, y su compatibilidad con múltiples formatos de archivo lo hace especialmente útil. Además, cuenta con una gran variedad de complementos (plugins) que amplían sus funcionalidades. A continuación, se detalla el proceso de instalación y activación de la versión de prueba, junto con los requisitos técnicos del sistema.
+        p.mb-0 Su versatilidad permite combinar la creatividad con la exactitud técnica, y su compatibilidad con múltiples formatos de archivo lo hace especialmente útil. Además, cuenta con una gran variedad de complementos (#[i plugins]) que amplían sus funcionalidades. A continuación, se detalla el proceso de instalación y activación de la versión de prueba, junto con los requisitos técnicos del sistema.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/img1.png", alt="", style="width: 360px").m-auto
@@ -71,39 +71,39 @@
                             p #[b Enlace web.] //www.rhino3d.com/download/
                 .row(titulo="b) Selección de versión")
                   .col-12
-                    p.mb-0 Elegir la opción de evaluación. Esta versión permite usar todas las funciones del software durante 90 días. Posteriormente, solo se podrá visualizar archivos.
+                    p.mb-0 Elegir la opción de evaluación. Esta versión permite usar todas las funciones del #[i software] durante 90 días. Posteriormente, solo se podrán visualizar archivos.
                 .row(titulo="c) Descarga del instalador")
                   .col-12
-                    p.mb-0 Descargar el archivo según el sistema operativo (Windows o macOS).
+                    p.mb-0 Descargar el archivo según el sistema operativo (#[i Windows] o #[i macOS]).
                 .row(titulo="d) Instalación")
                   .col-12
                     p.mb-0 Ejecutar el instalador y seguir las instrucciones. Se recomienda iniciar sesión con una cuenta de Gmail.
                 .row(titulo="e) Activación de licencia")
                   .col-12
-                    p.mb-0 La validación se realiza por internet. Rhino usa un sistema en la nube como Cloud Zoo para gestionar el estado de la licencia.
+                    p.mb-0 La validación se realiza por internet. Rhino usa un sistema en la nube como #[i Cloud Zoo] para gestionar el estado de la licencia.
                 .row(titulo="f) Limitaciones tras 90 días")
                   .col-12
-                    p.mb-0 Finalizado el periodo de prueba, no se podrán guardar archivos ni utilizar plugins. Solo funcionará como visor.
+                    p.mb-0 Finalizado el periodo de prueba, no se podrán guardar archivos ni utilizar #[i plugins]. Solo funcionará como visor.
           Separador
           #t_1_2
           .titulo-segundo.color-acento-contenido
-            h2 1.2Requisitos técnicos para Rhino
+            h2 1.2 Requisitos técnicos para Rhino
           .row.align-items-center.mb-4
             .col-md(data-aos="fade-right")
-              p.mb-0 Para garantizar un funcionamiento óptimo del software, es importante verificar que el equipo cumpla con los requisitos mínimos y recomendados, tanto para Windows como para macOS. Estos se presentan a continuación:
+              p.mb-0 Para garantizar un funcionamiento óptimo del #[i software], es importante verificar que el equipo cumpla con los requisitos mínimos y recomendados, tanto para #[i Windows] como para #[i macOS]. Estos se presentan a continuación:
             .col-md-auto(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema1/img1.svg", alt="", style="width: 120px").m-auto
           TabsB.color-acento-contenido(data-aos="fade-left")
-            .p-4.p-md-5(titulo="Windows" :icono="require('@/assets/curso/tema1/img2.svg')")
+            .p-4.p-md-5(titulo="<i>Windows</i>" :icono="require('@/assets/curso/tema1/img2.svg')")
               .row.justify-content-center
                 .col-lg-6
-                  p #[b Windows]
+                  p #[b #[i Windows]]
                   ul.lista-ul--color.mb-0
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Procesador: Intel o AMD de 64 bits (no compatible con ARM).
+                      p.mb-0 Procesador: Intel o AMD de 64 #[i bits] (no compatible con ARM).
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
@@ -115,15 +115,15 @@
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Tarjeta gráfica: compatible con OpenGL 4.5, con 4 GB de VRAM recomendados.
+                      p.mb-0 Tarjeta gráfica: compatible con #[i OpenGL] 4.5, con 4 GB de VRAM recomendados.
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Periféricos: ratón con varios botones y rueda; opcionalmente, SpaceNavigator (3D mouse).
+                      p.mb-0 Periféricos: ratón con varios botones y rueda; opcionalmente, #[i SpaceNavigator] (3D mouse).
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Sistema operativo: Windows 10 o Windows 11.
+                      p.mb-0 Sistema operativo: #[i Windows] 10 o #[i Windows] 11.
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
@@ -133,15 +133,15 @@
                     .col-12
                       figure
                         img(src="@/assets/curso/tema1/img5.png", alt="", style="width: 200px").m-auto
-            .p-4.p-md-5(titulo="MacOS" :icono="require('@/assets/curso/tema1/img2.svg')")
+            .p-4.p-md-5(titulo="<i>MacOS</i>" :icono="require('@/assets/curso/tema1/img2.svg')")
               .row.justify-content-center
                 .col-lg-6
-                  p #[b macOS]
+                  p #[b #[i macOS]]
                   ul.lista-ul--color.mb-0
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Procesador: Apple Silicon o Intel de 64 bits.
+                      p.mb-0 Procesador: #[i Apple Silicon] o Intel de 64 bits.
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
@@ -153,11 +153,11 @@
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Tarjeta gráfica: compatible con Metal (API gráfica de Apple).
+                      p.mb-0 Tarjeta gráfica: compatible con Metal (API gráfica de #[i Apple]).
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
-                      p.mb-0 Sistema operativo: macOS 12.4 o posterior.
+                      p.mb-0 Sistema operativo: #[i macOS] 12.4 o posterior.
                     li.d-flex
                       i.far.fa-arrow-alt-circle-right
                       |
