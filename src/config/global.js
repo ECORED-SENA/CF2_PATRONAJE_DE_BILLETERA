@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Interfaz del <i>software</i>',
     Description:
-      'Este componente formativo introduce la interfaz de Rhinoceros, destacando menús, comandos, barras de herramientas, vistas, capas y ayudas de construcción. Incluye novedades como el <i>Gumball</i> y opciones de personalización que mejoran la experiencia. Su propósito es que el aprendiz configure y navegue el <i>software</i> con precisión, optimizando el modelado digital de billeteras en un entorno profesional.',
+      'Este componente formativo introduce la interfaz de Rhinoceros, destacando menús, comandos, barras de herramientas, vistas, capas y ayudas de construcción. Incluye novedades como el Gumball y opciones de personalización que mejoran la experiencia. Su propósito es que el aprendiz configure y navegue el <i>software</i> con precisión, optimizando el modelado digital de billeteras en un entorno profesional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -89,7 +89,7 @@ export default {
           },
           {
             numero: '2.7',
-            titulo: '<i>Gumball</i>',
+            titulo: 'Gumball',
             hash: 't_2_7',
           },
           {
@@ -308,7 +308,7 @@ export default {
         'cuadros de visualización que muestran el modelo desde diferentes perspectivas (superior, perspectiva, frontal, derecha).',
     },
     {
-      termino: '<i>Widget Gumball</i>',
+      termino: '<i>Widget</i> Gumball',
       significado:
         'herramienta visual para manipular objetos mediante movimientos, rotaciones y escalas directas.',
     },

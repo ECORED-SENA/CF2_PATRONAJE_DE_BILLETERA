@@ -51,7 +51,7 @@
                                 li.d-flex.mb-0
                                   i.far.fa-arrow-alt-circle-right
                                   |
-                                  p.mb-0 #[i Gumball].
+                                  p.mb-0 Gumball.
               p.mb-0 Todos estos elementos se organizan de forma personalizable, permitiendo adaptar el entorno de trabajo a distintos tipos de usuarios y tareas.
             .col-lg-4(data-aos="fade-left")
               figure
@@ -388,7 +388,7 @@
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 #[i Gumball].
+                            p.mb-0 Gumball.
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |
@@ -411,10 +411,10 @@
     Separador
     #t_2_7
     .titulo-segundo.color-acento-contenido
-      h2 2.7 #[i Gumball]
+      h2 2.7 Gumball
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p El #[i Gumball] es una herramienta de manipulación directa de objetos en Rhinoceros. Al activarse, permite al usuario mover, rotar y escalar elementos del modelo mediante un control visual interactivo que aparece directamente sobre el objeto seleccionado.
+        p El Gumball es una herramienta de manipulación directa de objetos en Rhinoceros. Al activarse, permite al usuario mover, rotar y escalar elementos del modelo mediante un control visual interactivo que aparece directamente sobre el objeto seleccionado.
         .row.mb-3
           .col-12
             .p-4.bg-c16
@@ -440,12 +440,12 @@
                             i.far.fa-arrow-alt-circle-right
                             |
                             p.mb-0 Cuadros o manijas para escalar de forma precisa.
-        p.mb-0 El uso del #[i Gumball] agiliza muchas tareas de transformación al evitar la necesidad de ingresar comandos manuales, ofreciendo una alternativa más visual e intuitiva para editar objetos en el espacio 3D.
+        p.mb-0 El uso del Gumball agiliza muchas tareas de transformación al evitar la necesidad de ingresar comandos manuales, ofreciendo una alternativa más visual e intuitiva para editar objetos en el espacio 3D.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/img22.png", alt="", style="width: 360px").m-auto
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      p.mb-0 #[b Figura 11.] #[i Gumball]
+      p.mb-0 #[b Figura 11.] Gumball
     .row(data-aos="fade-left")
       .col-12
         .p-4.bg-c10
@@ -669,7 +669,7 @@
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 #[i Gumball].
+                            p.mb-0 Gumball.
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |

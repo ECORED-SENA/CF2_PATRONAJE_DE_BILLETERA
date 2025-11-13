@@ -22,7 +22,7 @@
                     .row
                       .col-12
                         .p-4
-                          p.text-white.mb-0 El contenido ofrece una ruta clara que inicia con la instalación y validación técnica del programa, para luego adentrarse en la exploración de la interfaz. Se abordan elementos como la barra de menús, las herramientas gráficas, la línea de comandos, las vistas, el administrador de capas y el #[i Gumball], entre otros. Estos recursos permiten al aprendiz organizar, visualizar y manipular objetos con mayor precisión, logrando un flujo de trabajo más ordenado y coherente con las exigencias del diseño digital.
+                          p.text-white.mb-0 El contenido ofrece una ruta clara que inicia con la instalación y validación técnica del programa, para luego adentrarse en la exploración de la interfaz. Se abordan elementos como la barra de menús, las herramientas gráficas, la línea de comandos, las vistas, el administrador de capas y el Gumball, entre otros. Estos recursos permiten al aprendiz organizar, visualizar y manipular objetos con mayor precisión, logrando un flujo de trabajo más ordenado y coherente con las exigencias del diseño digital.
                 .col-lg-auto.ps-0.d-none.d-xxl-block
                   figure
                     img(src="@/assets/curso/intro/img2.png", alt="", style="width: 450px").m-auto

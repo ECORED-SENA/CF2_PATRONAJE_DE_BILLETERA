@@ -37,7 +37,7 @@
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |
-                            p.mb-0 Hacer doble clic con el botón izquierdo del mouse sobre la vista superior (#[i Top]).
+                            p.mb-0 Hacer doble clic con el botón izquierdo del #[i mouse] sobre la vista superior (#[i Top]).
                           li.d-flex
                             i.far.fa-arrow-alt-circle-right
                             |

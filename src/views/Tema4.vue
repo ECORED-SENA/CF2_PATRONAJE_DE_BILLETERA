@@ -1140,7 +1140,7 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
-          h3.mb-0 Uso del #[i Gumball] para mover
+          h3.mb-0 Uso del Gumball para mover
     .row.mb-5
       .col-lg-auto.mb-3.mb-lg-0.pe-lg-0(data-aos="fade-right")
         figure
@@ -1149,7 +1149,7 @@
         .row.h-100.align-items-center
           .col-12
             .p-4
-              p.mb-0 El #[i widget Gumball] ofrece una interfaz visual para mover objetos mediante manipuladores gráficos. Con él, es posible desplazar, rotar y escalar elementos directamente sobre la geometría seleccionada, lo que agiliza el control y la edición.
+              p.mb-0 El #[i widget] Gumball ofrece una interfaz visual para mover objetos mediante manipuladores gráficos. Con él, es posible desplazar, rotar y escalar elementos directamente sobre la geometría seleccionada, lo que agiliza el control y la edición.
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
@@ -1251,10 +1251,10 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
-          h3.mb-0 Uso del #[i Gumball] para copiar
-    p.mb-5(data-aos="fade-down") El widget #[i Gumball] también permite realizar copias, ofreciendo una interfaz visual con manipuladores interactivos. A través de él, se pueden definir con rapidez la cantidad de copias y la distancia entre ellas.
+          h3.mb-0 Uso del Gumball para copiar
+    p.mb-5(data-aos="fade-down") El widget Gumball también permite realizar copias, ofreciendo una interfaz visual con manipuladores interactivos. A través de él, se pueden definir con rapidez la cantidad de copias y la distancia entre ellas.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      p.mb-0 #[b Figura 48.] Copia con #[i Gumball]
+      p.mb-0 #[b Figura 48.] Copia con Gumball
     .row.mb-5(data-aos="fade-left")
       .col-12
         .p-4.bg-c10
@@ -1412,13 +1412,13 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto
         .px-3.py-2.bg-c16
-          h3.mb-0 Uso del #[i Gumball] para rotar
+          h3.mb-0 Uso del Gumball para rotar
     .row.mb-5
       .col-lg.bg-c26.order-2.order-lg-1(data-aos="fade-right")
         .row.h-100.align-items-center
           .col-12
             .p-4
-              p.text-white.mb-0 Además del comando tradicional, el #[i Gumball] ofrece manipuladores visuales en forma de aros interactivos, que permiten girar objetos de manera rápida y precisa con retroalimentación en tiempo real.
+              p.text-white.mb-0 Además del comando tradicional, el Gumball ofrece manipuladores visuales en forma de aros interactivos, que permiten girar objetos de manera rápida y precisa con retroalimentación en tiempo real.
       .col-lg-auto.mb-3.mb-lg-0.ps-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/img62.png", alt="", style="width: 370px").m-auto
