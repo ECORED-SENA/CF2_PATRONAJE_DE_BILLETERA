@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <filter id="Trazado_796004" x="0" y="0" width="68" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1231207" data-name="Grupo 1231207" transform="translate(-339.198 -6543.151)">
+    <g id="Grupo_1230656" data-name="Grupo 1230656" transform="translate(348.198 6549.151)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Trazado_796004)">
+        <path id="Trazado_796004-2" data-name="Trazado 796004" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(9 6)" fill="#9028e2"/>
+      </g>
+    </g>
+    <path id="trackpad_12640631" d="M32.246,11.619H9.8a.8.8,0,0,0-.8.8V26.85a.8.8,0,0,0,.8.8H13.81v2.782a2.4,2.4,0,0,0,.317,1.191l3,5.242a.8.8,0,0,0,.7.4h9.619a.8.8,0,0,0,.744-.5l1.489-3.723a2.4,2.4,0,0,0,.171-.891v-4.5h2.4a.8.8,0,0,0,.8-.8V12.421a.8.8,0,0,0-.8-.8ZM28.238,32.153a.8.8,0,0,1-.057.3l-1.287,3.218H18.283l-2.765-4.839a.8.8,0,0,1-.105-.4v-4.2a.8.8,0,0,1,.441-.714l1.162-.581v2.712a.8.8,0,0,0,1.6,0V17.23a.8.8,0,0,1,1.6-.022v5.633h0a.8.8,0,0,0,1.6-.008V17.206a.8.8,0,0,1,1.6.024v5.611a.8.8,0,0,0,.8.8h3.209a.8.8,0,0,1,.8.8Zm3.206-6.105h-1.6V24.442a2.4,2.4,0,0,0-2.4-2.4H25.032V17.23a2.4,2.4,0,0,0-4.008-1.791,2.4,2.4,0,0,0-4.008,1.791v5.917l-1.879.939a2.384,2.384,0,0,0-1.315,1.961H10.6V13.222H31.445ZM13.243,6.575a.8.8,0,0,1,0-1.133l3.206-3.206a.8.8,0,0,1,1.133,1.133L15.745,5.206H28.238a.8.8,0,0,1,0,1.6H15.745l1.838,1.838a.8.8,0,0,1-1.133,1.133Z" transform="translate(351.976 6554.516)" fill="#fff"/>
+  </g>
+</svg>
